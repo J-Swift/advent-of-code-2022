@@ -44,6 +44,7 @@ main()
 EOF
     fi
 
+    rm -rf "day_${day}/part_${part}/.idea"
     open "day_${day}/part_${part}" -a "${android_studio_path}"
 }
 
